@@ -686,6 +686,7 @@ footer .wave#wave4{
             border-bottom: none;
             height: 85px;
             transition: background-color 500ms linear;
+
         }
 
         .photo{
@@ -698,6 +699,125 @@ footer .wave#wave4{
     max-height: 25px;
     background-color: rgba(208, 65, 33, 0.5);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Book Media Queries Beginning*/
+
+/*Ipad*/
+@media only screen and (max-width: 835px){
+            .book-section > .container{
+                height: 400px;
+                width: 800px;
+                left: 49.5%;
+            }
+
+            .book-section{
+                height: 50vh;
+                margin-bottom: 100px;
+            }
+
+            footer{
+                margin-top: 300px;
+            }
+}
+
+
+@media only screen and (max-width: 770px){
+            .book-section > .container{
+                height: 200px;
+                width:400px;
+                left: 48%;
+            }
+
+            .book-section{
+                height: 330px;
+                margin-bottom: 100px;
+            }
+
+            footer{
+                margin-top: 300px;
+            }
+}
+
+
+@media only screen and (max-width: 500px){
+            .book-section > .container{
+                height: 200px;
+                width:400px;
+                left: 48%;
+            }
+
+            .book-section{
+                height: 330px;
+                margin-bottom: 100px;
+            }
+
+            footer{
+                margin-top: 300px;
+            }
+}
+
+
+
+/*Gamaxy Note 20/Note 20 Ultra, Galaxy S20 Ultra, S20+, Iphone 11 Pro/11 Pro Max,    */
+@media only screen and (max-width: 440px){
+            .book-section > .container{
+                height: 180px;
+                width: 360px;
+                left: 47%;
+            }
+
+            .book-section{
+                height: 330px;
+                margin-bottom: 100px;
+            }
+
+            footer{
+                margin-top: 300px;
+            }
+}
+
+
+/*Galaxy S20/S10/S10+, */
+@media only screen and (max-width: 365px){
+            .book-section > .container{
+                height: 150px;
+                width: 300px;
+                left: 42%;
+            }
+
+            .book-section{
+                height: 330px;
+                margin-bottom: 100px;
+            }
+
+            footer{
+                margin-top: 300px;
+            }
+}
+
+/*Book Media Queries End*/
+
+
 
 
 
@@ -976,29 +1096,3 @@ footer .wave#wave4{
 
         }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
-
-
-
-
-
-
-
-
-
-
